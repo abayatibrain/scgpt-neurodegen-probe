@@ -1,8 +1,8 @@
 site_name: scgpt-neurodegen-probe
 site_description: A zero-shot probe of single-cell foundation models on neurodegeneration benchmarks with biologically defensible ground truth.
-site_url: https://arminbayati.github.io/scgpt-neurodegen-probe/
-repo_url: https://github.com/arminbayati/scgpt-neurodegen-probe
-repo_name: arminbayati/scgpt-neurodegen-probe
+site_url: https://abayatibrain.github.io/scgpt-neurodegen-probe/
+repo_url: https://github.com/abayatibrain/scgpt-neurodegen-probe
+repo_name: abayatibrain/scgpt-neurodegen-probe
 edit_uri: edit/main/docs/
 
 theme:

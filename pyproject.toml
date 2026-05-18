@@ -40,9 +40,9 @@ viz = ["matplotlib>=3.8", "seaborn>=0.13", "plotly>=5.22"]
 scgpt-neurodegen-probe = "scgpt_neurodegen_probe.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/arminbayati/scgpt-neurodegen-probe"
-Documentation = "https://arminbayati.github.io/scgpt-neurodegen-probe/"
-Issues = "https://github.com/arminbayati/scgpt-neurodegen-probe/issues"
+Homepage = "https://github.com/abayatibrain/scgpt-neurodegen-probe"
+Documentation = "https://abayatibrain.github.io/scgpt-neurodegen-probe/"
+Issues = "https://github.com/abayatibrain/scgpt-neurodegen-probe/issues"
 
 [dependency-groups]
 dev = [

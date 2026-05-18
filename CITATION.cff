@@ -7,8 +7,8 @@ authors:
     given-names: "Armin"
     email: "a.bayati.brain@gmail.com"
     orcid: "https://orcid.org/0000-0000-0000-0000"
-repository-code: "https://github.com/arminbayati/scgpt-neurodegen-probe"
-url: "https://arminbayati.github.io/scgpt-neurodegen-probe/"
+repository-code: "https://github.com/abayatibrain/scgpt-neurodegen-probe"
+url: "https://abayatibrain.github.io/scgpt-neurodegen-probe/"
 license: MIT
 version: "0.1.0"
 date-released: "2026-05-18"

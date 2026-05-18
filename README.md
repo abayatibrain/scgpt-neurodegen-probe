@@ -2,7 +2,7 @@
 
 *A zero-shot probe of single-cell foundation models on neurodegeneration tasks where the ground truth is biologically known — built to be defensible even when the answer is negative.*
 
-[![CI](https://github.com/arminbayati/scgpt-neurodegen-probe/actions/workflows/ci.yml/badge.svg)](https://github.com/arminbayati/scgpt-neurodegen-probe/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
+[![CI](https://github.com/abayatibrain/scgpt-neurodegen-probe/actions/workflows/ci.yml/badge.svg)](https://github.com/abayatibrain/scgpt-neurodegen-probe/actions/workflows/ci.yml) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
 
 ## What biological question this answers
 
@@ -45,7 +45,7 @@ flowchart LR
 ## Quickstart
 
 ```bash
-git clone https://github.com/arminbayati/scgpt-neurodegen-probe
+git clone https://github.com/abayatibrain/scgpt-neurodegen-probe
 cd scgpt-neurodegen-probe
 uv sync
 ./scripts/download_data.sh
