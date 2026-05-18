@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "scgpt-neurodegen-probe"
+abstract: "A zero-shot probe of single-cell foundation models on neurodegeneration benchmarks with biologically defensible ground truth."
+authors:
+  - family-names: "Bayati"
+    given-names: "Armin"
+    email: "a.bayati.brain@gmail.com"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/arminbayati/scgpt-neurodegen-probe"
+url: "https://arminbayati.github.io/scgpt-neurodegen-probe/"
+license: MIT
+version: "0.1.0"
+date-released: "2026-05-18"
+keywords:
+  - bioinformatics
+  - computational-biology
+  - neurodegeneration
