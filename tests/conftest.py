@@ -1,4 +1,5 @@
 """Pytest configuration and shared fixtures for scgpt_neurodegen_probe."""
+
 from __future__ import annotations
 
 from pathlib import Path
