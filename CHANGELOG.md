@@ -7,6 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added — first implementation slice (2026-05-23)
+- **`pd_genes.py`** — canonical PD-gene panel (13 high-confidence
+  Mendelian + GWAS; Singleton & Hardy 2019) and extended panel (+16
+  Nalls 2019 GWAS loci).
+- **`models/embeddings.py`** — `EmbeddingModel` Protocol +
+  `SyntheticEmbeddingModel` deterministic embedder (anchor-based
+  cluster injection so tests can exercise the full pipeline without
+  downloading scGPT weights).
+- **`stats/permutation.py`** — gene-label permutation null per
+  ADR-0003 with Phipson-Smyth-floored p-values, effect-size z-score,
+  and bootstrap-95% CI on the observed statistic (all ADR-0004
+  requirements). Standard statistics: `mean_pairwise_cosine`,
+  `mean_centroid_distance`, `compactness_score`.
+- **`benchmarks/task_a_pd_ranking.py`** — Task A end-to-end:
+  `run_pd_ranking_benchmark(model, ...)` returns a `TaskAReport` with
+  observed statistic + null mean/SD + effect size + floored p +
+  bootstrap CI, all in one dict for downstream reporting.
+- **19 unit tests** across `test_pd_genes`, `test_permutation`,
+  `test_task_a`. All passing; ruff check clean. Engineered-cluster
+  test produces p < 0.01 with effect > 3 SD; null-anchor test does
+  not reject.
+
 ### Added — ADR sprint (2026-05-19)
 - **ADR-0002** — Model coverage (proposed scGPT headline + Geneformer
   robustness).
